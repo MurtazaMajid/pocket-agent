@@ -1,0 +1,24 @@
+# Pocket-Agent — Requirements
+# Fine-tuned TinyLlama 1.1B for on-device tool calling
+
+# Core ML
+torch>=2.1.0
+transformers>=4.40.0
+peft>=0.10.0
+trl>=0.8.0
+datasets>=2.18.0
+
+# Quantization
+bitsandbytes>=0.43.0
+
+# Inference / GGUF (optional, for quantized model)
+llama-cpp-python>=0.2.0
+gguf>=0.6.0
+
+# Demo UI
+gradio>=4.0.0
+
+# Utilities
+accelerate>=0.27.0
+sentencepiece>=0.1.99
+numpy>=1.24.0
